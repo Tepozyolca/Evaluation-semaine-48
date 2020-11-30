@@ -1,0 +1,1 @@
+SELECT cus_city, cus_countries_id FROM customers ORDER BY cus_city

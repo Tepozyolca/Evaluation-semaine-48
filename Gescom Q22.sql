@@ -1,0 +1,1 @@
+update products SET pro_name = "Camper", pro_price = pro_price * 0.9 WHERE pro_name = "barb004"

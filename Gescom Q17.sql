@@ -1,0 +1,1 @@
+SELECT DISTINCT sup_name, sup_city, sup_countries_id, sup_address, sup_zipcode, sup_contact, sup_phone, sup_mail FROM suppliers JOIN products JOIN orders_details WHERE sup_id = pro_sup_id AND pro_id = ode_pro_id

@@ -1,0 +1,1 @@
+SELECT cat_id, cat_name, pro_name FROM categories JOIN products ORDER BY cat_name ASC

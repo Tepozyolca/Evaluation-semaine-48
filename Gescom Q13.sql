@@ -1,0 +1,1 @@
+SELECT @x := count(SELECT cus_id FROM customers WHERE cus_ountries_id = "CA") AS Nb clients Canada FROM 1

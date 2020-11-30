@@ -1,0 +1,1 @@
+SELECT pro_id, pro_ref, pro_name, cus_id, ord_id, ode_id FROM products JOIN customers JOIN orders JOIN orders_details WHERE cus_lastname = "Pikatchien"

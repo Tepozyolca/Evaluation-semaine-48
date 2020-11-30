@@ -1,0 +1,1 @@
+SELECT pro_id, pro_name, ord_id, ode_id, MAX(ode_discount) FROM products JOIN orders JOIN orders_details 

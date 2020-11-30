@@ -1,0 +1,1 @@
+SELECT ode_id, ode_unit_price, ode_discount, ode_quantity, ode_ord_id, ode_pro_id, ord_order_date FROM orders_details JOIN orders WHERE ode_id = ord_id AND ord_order_date LIKE "2020%"

@@ -1,0 +1,1 @@
+SELECT pro_id, pro_name, MIN(pro_price) FROM products

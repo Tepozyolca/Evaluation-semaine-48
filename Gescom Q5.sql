@@ -1,0 +1,1 @@
+SELECT cus_lastname, cus_firstname, cus_address, cus_zipcode, cus_city, cus_countries_id, cus_mail, cus_phone FROM customers WHERE cus_city LIKE "%divos%"
